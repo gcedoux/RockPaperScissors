@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>rps game </title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+</head>
+<body>
+<section>
+  <h1>RPS </h1>
+  
+  <div class="contain c">
+    <!--just testing these images not sure if I can actually use them -->
+    <div class=" rpsC p1 "> 
+      <img id="pQuestion" src="images/question.png" class=" questionI"><!--holder image-->
+      <img id="pRock" src="images/rock.png" class="hide rockI ">
+      <img id="pPaper" src="images/paper.png" class="hide paperI">
+      <img id="pScissor" src="images/scissor.png" class="hide scissorI">
+      <p id="player" > </p>
+    </div>
+      
+    <div class=" rpsC p2 ">
+      <img id="cQuestion" src="images/question.png" class=" questionI"><!--holder image-->
+      <img id="cRock" src="images/rock.png" class="hide rockI ">
+      <img id="cPaper" src="images/paper.png" class="hide paperI">
+      <img id="cScissor" src="images/scissor.png" class="hide scissorI">
+      <p id="comp"> </p>
+    </div> 
+          
+    <p class="wlO"  id="winn"> </p>
+
+  </div>  
+  
+  <div class="contain2 c">
+    
+    <div class="rpsBc p1">
+      <button onclick="rock()">Rock </button></br></br>
+      <button onclick="paper()">paper </button></br></br>
+      <button onclick="scissor()">scissor </button>
+    </div>
+    
+    <div class="rpsM p2">
+      <div class="rpsMs">
+        <p>Wins:<span id="winC"></span></p>
+        <p>losses:<span id="loseC"></span></p>
+        <p>Games:<span id="game"></span></p>
+        <button onclick="res()">Reset </button>
+      </div>
+    </div>
+  </div>  
+</section>    
+<script src="script/rpsR.js"></script>
+</body>
+</html>

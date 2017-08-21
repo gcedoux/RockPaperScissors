@@ -1,0 +1,98 @@
+*{
+      box-sizing: border-box;
+  color: white;
+}
+button{
+  color: black;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+
+.hide{
+	display: none;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  width: 750px;
+  height: auto;
+  border: solid black;
+  padding: 1em;
+  margin: auto;
+  background-color: gray;
+}
+
+
+/****
+RPS image holder section
+*****/
+.contain{
+  height: 250px;
+  padding: 1em;
+  position: relative;
+}
+
+.rpsC{
+  border: solid black;  
+  width: 250px;
+  height: 200px;
+}
+
+.p1{/*box that holds player image */
+  float: left;
+  padding: 1%;
+}
+
+.p2{/*box that holds computer image */
+  float: right;
+  padding: 1%;
+}
+
+.wlO{
+  /*position: absolute;
+  left: 9em;
+  top: 2em;*/
+  clear: left;
+  text-align: center;
+  font-size: 2rem;
+}
+/*test for image changing function*/
+.questionI,.rockI,.scissorI,.paperI{
+	height: 9em;
+}
+
+/****
+button holder and win/loss/games output 
+****/
+
+.contain2{
+  margin-top: 1em;
+  border-top: solid white 1px;
+  height: 250px;
+  padding: 1em;
+  
+}
+
+.rpsBc{/*button container */
+  width: 200px;
+  height: 200px;
+  border: solid black;
+  padding: 1em;
+}
+
+.rpsM{/*holds the counter and the start/reset function */
+  width: 400px;
+  height: 200px;
+  border: solid black;
+}
+
+.rpsMs{
+  margin: auto;
+  width: 200px;
+}
+
